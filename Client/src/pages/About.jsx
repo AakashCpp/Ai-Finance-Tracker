@@ -234,9 +234,9 @@ function App() {
           >
             <h2 className="text-3xl font-bold mb-4">Our Journey</h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Started from a simple idea to revolutionize personal finance
-              management, we've grown into a platform trusted by thousands of
-              users worldwide.
+              from a simple idea to revolutionize personal finance management,
+              we've grown into a platform trusted by thousands of users
+              worldwide.
             </p>
           </motion.div>
         </div>
