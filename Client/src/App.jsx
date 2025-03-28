@@ -1,14 +1,21 @@
 import React, { useState } from 'react'
-import Lnading from './pages/Landing'
+import Landing from './pages/Landing'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import About from './pages/About';
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Lnading />
-    </>
+  
+    <Router>
+      <Routes>
+        {/* <Route path='/about' element={>}/> */}
+        <Route path='/' element={<Landing/>}/>
+      </Routes>
+    
+      </Router>
   )
 }
 
-export default App
+export default App;

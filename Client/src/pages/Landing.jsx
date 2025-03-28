@@ -22,12 +22,11 @@ function App() {
             <div className="flex items-center">
               <Brain className="w-8 h-8 text-purple-500" />
               <span className="ml-2 text-xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
-                FinanceAI
+                wealthWise Women
               </span>
             </div>
             <div className="flex items-center space-x-4">
               <button className="hover:text-purple-400 transition-colors">About</button>
-              <button className="hover:text-purple-400 transition-colors">Features</button>
               <button className="bg-purple-500 hover:bg-purple-600 px-4 py-2 rounded-lg transition-colors">
                 Sign In
               </button>
